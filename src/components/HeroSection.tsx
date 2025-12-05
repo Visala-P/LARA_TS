@@ -68,12 +68,14 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="flex-1 flex justify-center animate-float">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-lara-teal/30 via-lara-purple/20 to-lara-pink/30 rounded-3xl blur-3xl" />
-              <img
-                src={laraLogo}
-                alt="LARA - Robotic AI Therapy System"
-                className="relative w-full max-w-xl md:max-w-2xl h-auto drop-shadow-2xl"
-              />
+              <div className="absolute -inset-4 bg-gradient-to-r from-lara-teal/40 via-lara-purple/30 to-lara-pink/40 rounded-3xl blur-2xl" />
+              <div className="relative bg-white rounded-2xl p-4 shadow-soft">
+                <img
+                  src={laraLogo}
+                  alt="LARA - Robotic AI Therapy System"
+                  className="w-full max-w-xl md:max-w-2xl h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
