@@ -1,6 +1,7 @@
 import { Heart, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import laraLogo from "@/assets/lara-logo.png";
+import robotImage from "@/assets/robot.png";
 
 const HeroSection = () => {
   return (
@@ -65,16 +66,24 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
-          <div className="flex-1 flex justify-center animate-float">
+          {/* Hero Image - Robot with LARA logo */}
+          <div className="flex-1 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-lara-teal/40 via-lara-purple/30 to-lara-pink/40 rounded-3xl blur-2xl" />
-              <div className="relative bg-white rounded-2xl p-4 shadow-soft">
-                <img
-                  src={laraLogo}
-                  alt="LARA - Robotic AI Therapy System"
-                  className="w-full max-w-xl md:max-w-2xl h-auto"
-                />
+              {/* Robot behind */}
+              <img
+                src={robotImage}
+                alt="LARA Robot"
+                className="w-full max-w-sm md:max-w-md h-auto animate-float"
+              />
+              {/* LARA logo overlay */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-soft">
+                  <img
+                    src={laraLogo}
+                    alt="LARA - Robotic AI Therapy System"
+                    className="w-48 md:w-64 h-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
