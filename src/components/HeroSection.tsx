@@ -73,18 +73,9 @@ const HeroSection = () => {
               <img
                 src={robotImage}
                 alt="LARA Robot"
-                className="w-full max-w-sm md:max-w-md h-auto animate-float"
+                className="w-full max-w-xl md:max-w-[1000px] lg:max-w-[1400px] xl:max-w-[1600px] h-auto animate-float"
               />
-              {/* LARA logo overlay */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-soft">
-                  <img
-                    src={laraLogo}
-                    alt="LARA - Robotic AI Therapy System"
-                    className="w-48 md:w-64 h-auto"
-                  />
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
