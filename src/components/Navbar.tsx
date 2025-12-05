@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#home" className="flex items-center gap-2">
-            <img src={laraLogo} alt="LARA" className="h-10 md:h-12 w-auto" />
+            <img src={laraLogo} alt="LARA" className="h-10 md:h-12 w-auto mix-blend-multiply" />
           </a>
 
           {/* Desktop Navigation */}

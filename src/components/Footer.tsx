@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <img src={laraLogo} alt="LARA" className="h-12 w-auto mb-4 brightness-200" />
+            <img src={laraLogo} alt="LARA" className="h-12 w-auto mb-4 invert brightness-0 invert" />
             <p className="text-background/70 max-w-md leading-relaxed">
               Empowering Every Ability with Care & Innovation. Low-Cost Adaptive Robotic-AI 
               Therapy System for children with special needs.
