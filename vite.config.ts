@@ -4,6 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Set a base for GitHub Pages when deploying under a repo path
+  base: process.env.VITE_BASE || '/LARA_TS/',
   server: {
     host: "::",
     port: 8080,
