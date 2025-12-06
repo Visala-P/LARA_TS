@@ -13,13 +13,23 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      {/* Use Vite's BASE_URL as the router basename so client routes work
+          when the site is hosted under a repo path (e.g. /LARA_TS/). */}
+      {
+        (() => {
+          const base = import.meta.env.BASE_URL || "/";
+          const basename = base === "/" ? "" : base.replace(/\/$/, "");
+          return (
+            <BrowserRouter basename={basename}>
+              <Routes>
+                <Route path="/" element={<Index />} />
+                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
+          );
+        })()
+      }
     </TooltipProvider>
   </QueryClientProvider>
 );
