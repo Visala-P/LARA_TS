@@ -47,7 +47,7 @@ const ResearchGroup = () => {
             (LARA)
           </h2>
           <p className="text-xl text-amber-50 mt-4 font-medium">
-            IIT Mandi Research Initiative
+            KL University Research Initiative
           </p>
         </div>
 
@@ -139,7 +139,7 @@ const ResearchGroup = () => {
         {/* Description */}
         <div className="max-w-4xl mx-auto px-6 pb-8">
           <p className="text-amber-100 text-lg leading-relaxed">
-            The <strong className="text-orange-300">LARA</strong> (Learning Assistance with Robotic Aid) research group at IIT Mandi 
+            The <strong className="text-orange-300">LARA</strong> (Learning Assistance with Robotic Aid) research group at K L University 
             focuses on developing AI-powered robotic systems for therapeutic intervention in children with 
             <strong className="text-orange-300"> Down Syndrome, Learning Disabilities, Intellectual Disabilities, and Autism</strong>. 
             Our interdisciplinary team combines expertise in Robotics, Artificial Intelligence, Child Psychology, 
@@ -197,12 +197,12 @@ const ResearchGroup = () => {
       {/* Footer Links */}
       <footer className="bg-amber-900 py-6 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-4 text-amber-200 text-sm">
-          <a href="https://iitmandi.ac.in" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">
-            IIT Mandi
+          <a href="https://kluniversity.in" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">
+            KL University
           </a>
           <span className="text-amber-600">|</span>
           <a href="#" className="hover:text-orange-400 transition-colors">
-            IIT Mandi Webmail
+            KL University Webmail
           </a>
           <span className="text-amber-600">|</span>
           <a href="#" className="hover:text-orange-400 transition-colors">
@@ -218,7 +218,7 @@ const ResearchGroup = () => {
           </a>
         </div>
         <p className="text-center text-amber-400 mt-4 text-xs">
-          © 2024 LARA Research Group, IIT Mandi. All rights reserved.
+          © 2024 LARA Research Group, KL University. All rights reserved.
         </p>
       </footer>
     </div>
