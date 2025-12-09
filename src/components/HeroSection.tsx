@@ -28,7 +28,7 @@ const HeroSection = () => {
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
               Low-Cost Adaptive Robotic-AI Therapy System for children with Down Syndrome, 
-              Learning Disabilities, and Intellectual Disorders.
+              Learning Disabilities, and Intellectual Disorders and Autism.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

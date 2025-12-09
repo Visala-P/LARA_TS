@@ -40,9 +40,7 @@ const ResearchGroup = () => {
             alt="LARA Logo" 
             className="h-24 mx-auto mb-4 drop-shadow-lg"
           />
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-400 mb-2 tracking-wide">
-            Learning Assistance with Robotic Aid
-          </h1>
+          
           <h2 className="text-2xl md:text-3xl font-semibold text-amber-100">
             (LARA)
           </h2>
@@ -139,7 +137,7 @@ const ResearchGroup = () => {
         {/* Description */}
         <div className="max-w-4xl mx-auto px-6 pb-8">
           <p className="text-amber-100 text-lg leading-relaxed">
-            The <strong className="text-orange-300">LARA</strong> (Learning Assistance with Robotic Aid) research group at KL University 
+            The <strong className="text-orange-300">LARA</strong>research group at KL University 
             focuses on developing AI-powered robotic systems for therapeutic intervention in children with 
             <strong className="text-orange-300"> Down Syndrome, Learning Disabilities, Intellectual Disabilities, and Autism</strong>. 
             Our interdisciplinary team combines expertise in Robotics, Artificial Intelligence, Child Psychology, 
@@ -218,7 +216,7 @@ const ResearchGroup = () => {
           </a>
         </div>
         <p className="text-center text-amber-400 mt-4 text-xs">
-          © 2024 LARA Research Group, KL University. All rights reserved.
+          © 2025 LARA Research Group, KL University. All rights reserved.
         </p>
       </footer>
     </div>
