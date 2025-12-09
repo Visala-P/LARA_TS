@@ -137,7 +137,7 @@ const ResearchGroup = () => {
         {/* Description */}
         <div className="max-w-4xl mx-auto px-6 pb-8">
           <p className="text-amber-100 text-lg leading-relaxed">
-            The <strong className="text-orange-300">LARA</strong>research group at KL University 
+            The <strong className="text-orange-300">LARA </strong>research group at KL University 
             focuses on developing AI-powered robotic systems for therapeutic intervention in children with 
             <strong className="text-orange-300"> Down Syndrome, Learning Disabilities, Intellectual Disabilities, and Autism</strong>. 
             Our interdisciplinary team combines expertise in Robotics, Artificial Intelligence, Child Psychology, 
