@@ -11,7 +11,7 @@ const steps = [
   {
     number: "02",
     icon: Cpu,
-    title: "AI Processing",
+    title: "Data Processing",
     description: "Our emotion classifier and attention detection algorithms analyze data in real-time to understand the child's state.",
     color: "from-lara-purple to-lara-pink",
   },

@@ -22,8 +22,8 @@ const AboutSection = () => {
                 Making Therapy Accessible to Every Child
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                LARA (Low-cost Adaptive Robotic-AI Therapy System) is designed to provide 
-                affordable, AI-powered therapy assistance for children with Down Syndrome, 
+                LARA (Low-cost Adaptive Robotic Therapy System) is designed to provide 
+                affordable, technology-enabled therapy assistance for children with Down Syndrome, 
                 Autism, Learning Disabilities, and Intellectual Disorders.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mt-4">
@@ -58,8 +58,8 @@ const AboutSection = () => {
               <div className="w-12 h-12 bg-lara-purple rounded-xl flex items-center justify-center mb-4">
                 <Lightbulb className="w-6 h-6 text-white" />
               </div>
-              <div className="text-3xl md:text-4xl font-bold text-secondary font-display">AI</div>
-              <p className="text-muted-foreground mt-2">Powered Intelligence</p>
+              <div className="text-3xl md:text-4xl font-bold text-secondary font-display">Tech</div>
+              <p className="text-muted-foreground mt-2">Technology-Enabled</p>
             </div>
 
             <div className="bg-card rounded-2xl p-6 md:p-8 shadow-soft border border-border">

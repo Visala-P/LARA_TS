@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
             </a>
             <p className="text-background/70 max-w-md leading-relaxed">
-              Empowering Every Ability with Care & Innovation. Low-Cost Adaptive Robotic-AI 
+              Empowering Every Ability with Care & Innovation. Low-Cost Adaptive Robotic 
               Therapy System for children with special needs.
             </p>
           </div>

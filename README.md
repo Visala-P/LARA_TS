@@ -1,6 +1,6 @@
 # LARA — Learning Buddy
 
-This repository contains the front-end for LARA, a low-cost adaptive robotic-AI therapy system for children.
+This repository contains the front-end for LARA, a low-cost adaptive robotic therapy system for children.
 
 Getting started (local)
 

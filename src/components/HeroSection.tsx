@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="flex-1 text-center lg:text-left space-y-6">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">
               <Sparkles className="w-4 h-4" />
-              AI-Powered Therapy for Every Child
+              Adaptive Therapy for Every Child
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              Low-Cost Adaptive Robotic-AI Therapy System for children with Down Syndrome, 
+              Low-Cost Adaptive Robotic Therapy System for children with Down Syndrome, 
               Learning Disabilities, and Intellectual Disorders and Autism.
             </p>
 
@@ -55,8 +55,8 @@ const HeroSection = () => {
               </div>
               <div className="h-10 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-lara-purple">AI</div>
-                <div className="text-sm text-muted-foreground">Powered</div>
+                <div className="text-3xl font-bold text-lara-purple">Tech</div>
+                <div className="text-sm text-muted-foreground">Enabled</div>
               </div>
               <div className="h-10 w-px bg-border" />
               <div className="text-center">

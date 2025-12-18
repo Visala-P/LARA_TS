@@ -16,7 +16,7 @@ const ResearchGroup = () => {
 
   const newsItems = [
     "LARA therapy system pilot program launched at special education centers across Tamil Nadu.",
-    "Research paper on 'AI-Assisted Therapy for Children with Down Syndrome' accepted at IEEE ICRA 2024.",
+    "Research paper on 'Technology-Assisted Therapy for Children with Down Syndrome' accepted at IEEE ICRA 2024.",
     "Collaboration established with National Institute for Empowerment of Persons with Intellectual Disabilities.",
     "LARA robot prototype successfully completed Phase 2 clinical trials with 95% positive outcomes.",
     "Team member Dr. Priya Sharma awarded Best Researcher in Assistive Robotics 2024.",
@@ -138,9 +138,9 @@ const ResearchGroup = () => {
         <div className="max-w-4xl mx-auto px-6 pb-8">
           <p className="text-amber-100 text-lg leading-relaxed">
             The <strong className="text-orange-300">LARA </strong>research group at KL University 
-            focuses on developing AI-powered robotic systems for therapeutic intervention in children with 
+            focuses on developing advanced robotic systems for therapeutic intervention in children with 
             <strong className="text-orange-300"> Down Syndrome, Learning Disabilities, Intellectual Disabilities, and Autism</strong>. 
-            Our interdisciplinary team combines expertise in Robotics, Artificial Intelligence, Child Psychology, 
+            Our interdisciplinary team combines expertise in Robotics, Intelligent Systems, Child Psychology, 
             and Special Education to create innovative solutions that empower children with special needs.
           </p>
         </div>

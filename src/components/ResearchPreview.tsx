@@ -10,7 +10,7 @@ const ResearchPreview = () => {
     {
       icon: FlaskConical,
       title: "Research Focus",
-      description: "AI-powered robotic systems for therapeutic intervention"
+      description: "Advanced robotic systems for therapeutic intervention"
     },
     {
       icon: Users,
@@ -41,7 +41,7 @@ const ResearchPreview = () => {
           </p>
           <p className="text-gray-600 max-w-3xl mx-auto mb-10">
             Discover how our dedicated research team at KL University is developing cutting-edge 
-            AI-powered robotic solutions to help children with special needs through therapeutic intervention.
+            robotic solutions to help children with special needs through therapeutic intervention.
           </p>
         </div>
 

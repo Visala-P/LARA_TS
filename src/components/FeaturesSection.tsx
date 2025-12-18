@@ -11,7 +11,7 @@ const features = [
   {
     icon: Heart,
     title: "Emotion Detection",
-    description: "AI-powered facial expression analysis to understand children's emotions and adapt therapy sessions accordingly.",
+    description: "Automated facial expression analysis to understand children's emotions and adapt therapy sessions accordingly.",
     color: "bg-lara-pink",
   },
   {
@@ -50,7 +50,7 @@ const FeaturesSection = () => {
             Comprehensive Care Through Technology
           </h2>
           <p className="text-lg text-muted-foreground">
-            LARA combines cutting-edge AI with compassionate care to provide holistic therapy support for children with special needs.
+            LARA combines cutting-edge technology with compassionate care to provide holistic therapy support for children with special needs.
           </p>
         </div>
 
